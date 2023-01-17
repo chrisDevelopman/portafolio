@@ -1,0 +1,234 @@
+header{
+background-color:black;
+padding: 20px 0;
+}
+
+#logo {
+height:15%;
+width:15%;
+border-radius:100px;
+}
+
+.caja{
+width: 940px;
+position:relative;
+margin:0 auto;
+}
+
+nav{
+position:absolute;
+top:60px;
+right:0;
+}
+
+nav li{
+display:inline;
+margin:0 0 0 15px;
+}
+
+nav a {
+text-transform:uppercase;
+color:white;
+font-weight:bold;
+font-size: 22px;
+text-decoration:none;
+}
+
+nav a:hover{
+color:green;
+text-decoration:underline;
+}
+
+.productos{
+width: 940px;
+margin:0 auto;
+padding:50px;
+}
+
+.productos li{
+display:inline-block;
+text-align: center;
+width:30%;
+vertical-align:top;
+background:#535b61;
+margin:0 1.5%;
+padding:30px 20px;
+box-sizing: border-box;
+border-color:black;
+border-width:3px;
+border-style:solid;
+border-radius:15px;
+}
+
+.productos li:hover{
+border-color:#535b61;
+}
+
+.productos li:hover h2{
+font-size:28px;
+}
+
+.productos h2{
+font-size:18px;
+font-weight: bold;
+color:white;
+}
+
+.iproducto{
+width:150px;
+height:150px;
+color:white;
+padding-top: 10px;
+}
+
+.dproducto{
+font-size:14px;
+color:white;
+padding-top: 10px;
+}
+
+.pproducto{
+font-size:20px;
+font-weight:bold;
+margin:10px;
+color:white;
+}
+
+footer{
+background:black;
+text-align:center;
+}
+
+.ifooter{
+height:10%;
+width:10%;
+padding-top:20px;
+}
+
+.copy{
+color:white;
+font-size:10px;
+padding:20px;
+}
+
+
+main{
+width:948px;
+margin: 0 auto;
+}
+
+form{
+margin:40px 0;
+}
+
+form label{
+display:block;
+font-size:20px;
+margin:0 0 10px;
+}
+
+.block{
+display:block;
+margin:0 0px 20px;
+padding:10px; 25px;
+width:50%;
+}
+
+
+.block p{
+font-size:20px;
+color:blue;
+margin:10px;
+}
+
+.enviar{
+margin:25px;
+font-size:25px;
+width:40%;
+pading:15px 0;
+font-weight: bold;
+background:black;
+color:white;
+border-radius:20px;
+transition:1s background;
+}
+
+.enviar:hover{
+background:green;
+cursor:pointer;
+}
+
+table{
+margin:40px 50px;
+}
+
+thead{
+background:black;
+color:white;
+font-weight:bold;
+}
+
+td, th{
+border: 2px solid black;
+padding: 8px 15px;
+}
+
+.banner {
+width: 100%;
+height: 250px;
+}
+
+.titulo {
+font-size:2em;
+text-align: center;
+margin:0 1em 1em;
+}
+
+.presentacion{
+    margin: 1em 4em 1em;
+    font-size: 1.5em;
+    text-align: justify;
+    width: 80%;
+    border: solid 1px;
+    padding: 15px;
+    background: #7672b37d;
+    border-radius: 25px;
+    color: rebeccapurple;
+}
+
+.section1{
+display:block;
+}
+
+
+
+.contenido2{
+
+margin:50px auto;
+}
+
+.lista2{
+display:inline-block;
+vertical-align:top;
+width:640px;
+width:40%;
+}
+
+.li{
+font-size:1.5em;
+padding:20px;
+}
+
+.data2{
+width:60%;
+}
+
+.servicios, .videos, .ubicacion{
+font-size:2.5em;
+margin:50px 25px;
+text-align:center;
+}
+
+@media screen and (max-width:480px;){
+background:red;
+}

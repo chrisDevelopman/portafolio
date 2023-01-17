@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">		
+		<title>Contacto</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="productos.css">
+
+	</head>
+
+	<body>
+
+		<header>
+			<div class="caja">
+				<h1><img id="logo"; src="image/logo.png"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="quien.html">Quienes Somos</a></li>
+						<li><a href="productos.html">Productos</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			
+			<form>
+				<label for="Empresa">Nombre Empresa</label>
+				<input type="text" id="Empresa">
+
+				<label for="Representante" required>Nombre Representante</label>
+				<input type="text" id="Representante" class="inpun-padron">
+
+				<label for="correo">Correo Electronico</label>
+				<input type="text" id="correo" class="inpun-padron" placeholder="email@dominio.com">
+
+				<label for="consulta">Consulta</label>
+				<input type="text" id="consulta" class="inpun-padron" placeholder="+56XXXXXXX">
+
+				<label for="mensaje">Mensaje</label>
+				<textarea cols="65" rows="10" id="mensaje" class="inpun-padron" placeholder="Explique lo que desea"></textarea>
+
+					<fieldset class="block">
+						<legend>Opciones</legend>
+						<p>Que programa le Interesa?</p>
+						<label for="radio-email"><input type="radio" name="contacto" value="Modelo" id="radio-modelo" class="inpun-padron" checked>Modelo</label>
+						<label for="radio-estudio"><input type="radio" name="contacto" value="Estudio" id="radio-estudio"  class="inpun-padron">Estudio</label>
+						<label for="radio-deep"><input type="radio" name="contacto" value="Deep Learning" id="radio-deep"  class="inpun-padron">Deep Learning</label>
+					
+					<select>
+						<option>Clasificacion</option>
+						<option>Modelo</option>
+						<option>Deep</option>
+					</slect> 
+
+					<label><input type="checkbox">Desea Una Cotizacion?</label>
+				
+					
+					
+					
+					</fieldset>
+
+				<input type="submit" value="Enviar Formulario" class="enviar">
+			
+			</form>
+			
+			<table>
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Tarde</th>
+					</tr>
+					
+				</thead>
+				<tboddy>
+					<tr>
+						<td>Lunes-Viernes</td>
+						<td>08:00 - 20:00 hrs</td>
+					</tr>
+					<tr>
+						<td>Sabados</td>
+						<td>09:00 - 12:00 hrs</td>
+					</tr>
+			
+				</tboddy>
+				
+			</table>
+			
+		</main>
+
+
+		<footer>
+			<img class="ifooter" src="image/logo.png" alt="Logo de La Empresa">
+			<p class="copy" > &copy Copyright Empresa - 2022</p>
+		</footer>
+
+	</body>
+	
+</html>

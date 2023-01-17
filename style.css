@@ -1,0 +1,38 @@
+h1{
+color:white;
+}
+
+body{
+background:#021d34;
+}
+
+p { 
+text-align:center;
+background:#365b77;
+	}
+
+#importante{
+color:white;
+}
+
+#data1{
+width : 100%;
+height: 350px;
+}
+
+#data2{
+height: 50%;
+width: 50%;
+}
+
+ul{
+display:inline-block;
+vertical-align:top;
+margin-right:15%;
+}
+
+.li{
+color:white;
+font-size:xx-large;
+}
+
